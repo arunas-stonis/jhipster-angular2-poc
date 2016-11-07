@@ -1,0 +1,31 @@
+entity Payment {
+	amount Long required,
+    date ZonedDateTime required
+}
+
+entity Order {
+	 code String required,
+     quantity Integer required,
+     productName Product required,
+     amount Long required
+}
+
+enum Product {
+    BRED, MILK, WINE
+}
+
+relationship OneToMany {
+	Payment{order} to Order
+}
+
+
+// Set pagination options
+paginate Payment, Payment with infinite-scroll
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+angularSuffix * with mySuffix
