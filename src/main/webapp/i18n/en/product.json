@@ -1,0 +1,10 @@
+{
+    "jhipsterApp": {
+        "Product" : {
+            "null": "",
+            "BRED": "BRED",
+            "MILK": "MILK",
+            "WINE": "WINE"
+        }
+    }
+}

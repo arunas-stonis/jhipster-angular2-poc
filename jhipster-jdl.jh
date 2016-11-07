@@ -14,10 +14,9 @@ enum Product {
     BRED, MILK, WINE
 }
 
-relationship OneToMany {
-	Payment{order} to Order
-}
-
+//relationship OneToMany {
+//	Payment{order} to Order
+//}
 
 // Set pagination options
 paginate Payment, Payment with infinite-scroll
