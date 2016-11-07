@@ -27,4 +27,4 @@ dto * with mapstruct
 service all with serviceImpl
 
 // Set an angular suffix
-angularSuffix * with mySuffix
+//angularSuffix * with mySuffix

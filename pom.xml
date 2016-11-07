@@ -65,6 +65,11 @@
 
 
     <dependencies>
+		<dependency>
+		  <groupId>com.stripe</groupId>
+		  <artifactId>stripe-java</artifactId>
+		  <version>2.10.2</version>
+		</dependency>
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-core</artifactId>
